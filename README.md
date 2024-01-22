@@ -11,7 +11,7 @@ What to do to join:
 2. Drop a mail to Jacob (j.kruger [at] tue.nl) and Sebastian (sebastian.nielebock [at] ovgu.de) that you want to attend the Hackathon
 3. Attend deRSE'24 from March 5th to 7th and make replication packages work
 
-Moreover, we *invite every participant to join collaborative writing of an experience report*, which we intend to submit to a journal (tbd) at the end of 2024.
+We will *invite all interested participants* who contributed feasible solutions to join us in *writing a collaborative experience report on the Hackathon's outcomes*.
 
 Further details on the hackathon can be found on the deRSE'24 webpage: [https://events.hifis.net/event/994/contributions/8006/](https://events.hifis.net/event/994/contributions/8006/)
 

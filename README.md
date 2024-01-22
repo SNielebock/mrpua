@@ -7,13 +7,13 @@ Then, join our Hackathon *"Making Replication Packages Usable (Again)"* on March
 
 What to do to join:
 
-1. Register for deRSE'24 until February, 1st - registration details can be found on the website https://events.hifis.net/event/994/registrations/1038/
-2. Drop a mail to Jacob (j.kruger@tue.nl) and Sebastian (sebastian.nielebock@ovgu.de) that you want to attend the Hackathon
+1. Register for deRSE'24 until February, 1st - registration details can be found on the website [https://events.hifis.net/event/994/registrations/1038/](https://events.hifis.net/event/994/registrations/1038/)
+2. Drop a mail to Jacob (j.kruger [at] tue.nl) and Sebastian (sebastian.nielebock [at] ovgu.de) that you want to attend the Hackathon
 3. Attend deRSE'24 from March 5th to 7th and make replication packages work
 
-Moreover, we *invite every participant to join a collaborative writing of an experience report*, which we intend to submit to a journal (tbd) in the end of 2024.
+Moreover, we *invite every participant to join collaborative writing of an experience report*, which we intend to submit to a journal (tbd) at the end of 2024.
 
-Further details on the hackathon can be found on the deRSE'24 webpage: https://events.hifis.net/event/994/contributions/8006/
+Further details on the hackathon can be found on the deRSE'24 webpage: [https://events.hifis.net/event/994/contributions/8006/](https://events.hifis.net/event/994/contributions/8006/)
 
 Hope to see you in Würzburg\
 Jacob and Sebastian

@@ -1,4 +1,4 @@
-# Make Replication Packages Usable (Again)
+# Making Replication Packages Usable (Again)
 
 
 You are a researcher working on software-engineering topics or a practitioner interested in current tools from software-engineering research? Did you make the experience of trying to reuse a software artifact from a software-engineering research paper and failing to execute it? Or did your replicated results diverge significantly from what was reported in the respective paper? Do you want to help improve replication packages so that you do not have to spend hours on getting the software to run?

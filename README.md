@@ -13,7 +13,7 @@ What to do to join:
 
 We will *invite all interested participants* who contributed feasible solutions to join us in *writing a collaborative experience report on the Hackathon's outcomes*.
 
-Further details on the hackathon can be found on the deRSE'24 webpage: [https://events.hifis.net/event/994/contributions/8006/](https://events.hifis.net/event/994/contributions/8006/)
+Further details on the Hackathon can be found on the deRSE'24 webpage: [https://events.hifis.net/event/994/contributions/8006/](https://events.hifis.net/event/994/contributions/8006/)
 
 Hope to see you in Würzburg\
 Jacob and Sebastian

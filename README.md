@@ -3,7 +3,7 @@
 
 You are a researcher working on software-engineering topics or a practitioner interested in current tools from software-engineering research? Did you make the experience of trying to reuse a software artifact from a software-engineering research paper and failing to execute it? Or did your replicated results diverge significantly from what was reported in the respective paper? Do you want to help improve replication packages so that you do not have to spend hours on getting the software to run?
 
-Then, join our Hackathon *"Making Replication Packages Usable (Again)"* on March, 7th 2024 at the end of the deRSE24 Conference for Research Software Engineering in Würzburg, Germany. Organized by Sebastian Nielebock (Otto-von-Guericke University Magdeburg, Germany) and Jacob Krüger (Eindhoven University of Technology, The Netherlands), we want to explore together with you what makes replication packages hard to (re-)use and what can be improved.
+Then, join our *in-person* Hackathon *"Making Replication Packages Usable (Again)"* on March, 7th 2024 at the end of the deRSE24 Conference for Research Software Engineering in Würzburg, Germany. Organized by Sebastian Nielebock (Otto-von-Guericke University Magdeburg, Germany) and Jacob Krüger (Eindhoven University of Technology, The Netherlands), we want to explore together with you what makes replication packages hard to (re-)use and what can be improved.
 
 What to do to join:
 

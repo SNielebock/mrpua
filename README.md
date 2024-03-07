@@ -1,6 +1,6 @@
 # Making Replication Packages Usable (Again)
 
-## Instructions - March, 7th 
+## Instructions - March 7
 
 * Join (individual or as group) the Hackathon at any time in SE04 (and drop out at any time as well :) )
 * Select an artifact from ICSE'23 conference using our [search tool](https://snielebock.github.io/mrpua/Sorter.html)

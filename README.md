@@ -1,5 +1,12 @@
 # Making Replication Packages Usable (Again)
 
+## Instructions - 7th March
+
+* Join (individual or as group) the Hackathon at any time in SE04 (and drop out at any time as well :) )
+* Select an artifact from ICSE'23 conference using our [search tool](https://snielebock.github.io/mrpua/Sorter.html)
+* For each artifact prepare a ReadMe (*.txt or *md) from the artifact website and fill out the questionnaire [https://befragungen.ovgu.de/MRPUA/](https://befragungen.ovgu.de/MRPUA/)
+
+## General Information
 
 You are a researcher working on software-engineering topics or a practitioner interested in current tools from software-engineering research? Did you make the experience of trying to reuse a software artifact from a software-engineering research paper and failing to execute it? Or did your replicated results diverge significantly from what was reported in the respective paper? Do you want to help improve replication packages so that you do not have to spend hours on getting the software to run?
 

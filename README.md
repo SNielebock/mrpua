@@ -9,7 +9,7 @@ Then, join our *in-person* Hackathon *"Making Replication Packages Usable (Again
 What to do to join:
 
 1. Register for PROFES 2024 registration details can be found on the website [https://conf.researchr.org/attending/profes-2024/registration](https://conf.researchr.org/attending/profes-2024/registration)
-2. Drop a mail to Alexander (a.u.nolte [at] tue.nl) Jacob (j.kruger [at] tue.nl) and Sebastian (sebastian.nielebock [at] ovgu.de) that you want to attend the Hackathon
+2. Drop a mail to Alexander (a.u.nolte [at] tue.nl), Jacob (j.kruger [at] tue.nl), and Sebastian (sebastian.nielebock [at] ovgu.de) that you want to attend the Hackathon
 3. Attend PROFES 2024 from December 2nd to 4th and make replication packages work (Note: *Own laptops are required for the Hackathon!*)
 
 We will *invite all interested participants* who contributed feasible solutions to join us in *writing a collaborative experience report on the Hackathon's outcomes*.

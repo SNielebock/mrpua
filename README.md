@@ -36,6 +36,9 @@ This is a replication of a prior hackathon that was held as an adjacent event to
 Any questions regarding the hackathon can be submitted to [Sebastian Nielebock](mailto:sebastian.nielebock@ovgu.de?subject=[MRPUA@ESEM2026]).
 
 Further details on the exact time and location hackathon will be available on the ESEM 2026 webpage ([https://conf.researchr.org/home/eseiw-2026](https://conf.researchr.org/home/eseiw-2026)) closer to the conference.
-
+<br>
+<br>
+<br>
 Hope to see you in Munich!
+<br>
 Sebastian, Jacob, Andreas, Alexander, and Michael

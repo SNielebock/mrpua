@@ -5,18 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artifact Selection - Making Replication Packages Usable (Again) - ESEM 2026</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <style>
+    [data-tooltip]::before {
+      width: min(40rem, 80vw);
+      white-space: normal;
+      text-align: left;
+    }
+    table.striped tbody tr[data-llm="true"] > td {
+      background-color: rgb(255 165 0 / 20%);
+    }
+  </style>
 </head>
 <body>
   <main class="container">
     <h2>Artifact Selection - Making Replication Packages Usable (Again) - ESEM 2026</h2>
+    <label>
+      <input id="hide-llm" type="checkbox">
+      Hide entries that use LLMs
+    </label>
     <div class="overflow-auto">
       <table class="striped">
         <thead>
           <tr>
-            <th scope="col">Paper ID</th>
+            <th scope="col">ID</th>
             <th scope="col">Title</th>
             <th scope="col">Abstract</th>
             <th scope="col">Artifact</th>
+            <th scope="col">PDF</th>
             <th scope="col">Notes</th>
             <th scope="col">LLM</th>
           </tr>
@@ -32,18 +47,42 @@
         const tbody = document.querySelector("#papers");
         for (const paper of papers) {
           const row = tbody.insertRow();
-          for (const value of [
-            paper.pid,
-            paper.title,
-            paper.abstract,
-            paper.artifactURL,
-            paper.notes,
-            paper.llm ? "Yes" : "No"
-          ]) {
+          row.dataset.llm = paper.llm;
+
+          row.insertCell().textContent = paper.pid;
+          row.insertCell().textContent = paper.title;
+          const abstract = document.createElement("em");
+          abstract.textContent = "show";
+          abstract.dataset.tooltip = paper.abstract;
+          abstract.dataset.placement = "bottom";
+          abstract.setAttribute("aria-label", paper.abstract);
+          row.insertCell().append(abstract);
+
+          const artifactCell = row.insertCell();
+          if (paper.artifactURL) {
+            for (const [index, url] of paper.artifactURL.split("\n").entries()) {
+              if (index) artifactCell.append(document.createElement("br"));
+              const link = document.createElement("a");
+              link.href = url;
+              link.textContent = "link";
+              link.target = "_blank";
+              link.rel = "noopener";
+              artifactCell.append(link);
+            }
+          } else {
+            artifactCell.textContent = "—";
+          }
+            row.insertCell().textContent = "TBA";
+          for (const value of [paper.notes, paper.llm ? "Yes" : "No"]) {
             row.insertCell().textContent = value ?? "—";
           }
         }
       });
+    document.querySelector("#hide-llm").addEventListener("change", event => {
+      for (const row of document.querySelector("#papers").rows) {
+        row.hidden = event.target.checked && row.dataset.llm === "true";
+      }
+    });
   </script>
 </body>
 </html>

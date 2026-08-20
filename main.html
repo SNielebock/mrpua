@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artifact Selection - Making Replication Packages Usable (Again) - ESEM 2026</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+<body>
+  <main class="container">
+    <h2>Artifact Selection - Making Replication Packages Usable (Again) - ESEM 2026</h2>
+    <div class="overflow-auto">
+      <table class="striped">
+        <thead>
+          <tr>
+            <th scope="col">Paper ID</th>
+            <th scope="col">Title</th>
+            <th scope="col">Abstract</th>
+            <th scope="col">Artifact</th>
+            <th scope="col">Notes</th>
+            <th scope="col">LLM</th>
+          </tr>
+        </thead>
+        <tbody id="papers"></tbody>
+      </table>
+    </div>
+  </main>
+  <script>
+    fetch("data/esem26.json")
+      .then(response => response.json())
+      .then(papers => {
+        const tbody = document.querySelector("#papers");
+        for (const paper of papers) {
+          const row = tbody.insertRow();
+          for (const value of [
+            paper.pid,
+            paper.title,
+            paper.abstract,
+            paper.artifactURL,
+            paper.notes,
+            paper.llm ? "Yes" : "No"
+          ]) {
+            row.insertCell().textContent = value ?? "—";
+          }
+        }
+      });
+  </script>
+</body>
+</html>

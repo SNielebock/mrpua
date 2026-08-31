@@ -6,7 +6,8 @@
     "artifactURL": "https://figshare.com/s/9aa5e02897e6b3fe34e2",
     "notes": "OpenAI",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p001-Fu"
   },
   {
     "pid": 9,
@@ -15,7 +16,8 @@
     "artifactURL": "https://figshare.com/s/bfe9b19ff7c9a66f490a",
     "notes": "GitHub token",
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p002-Tsakpinis"
   },
   {
     "pid": 12,
@@ -24,7 +26,8 @@
     "artifactURL": "https://anonymous.4open.science/r/diffmodel-esem-8F8D/",
     "notes": null,
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p003-Al-Haque"
   },
   {
     "pid": 13,
@@ -33,7 +36,8 @@
     "artifactURL": "https://anonymous.4open.science/r/ESEM-ROS-Topic-rep-pkg-51A3",
     "notes": "GitHub token, ROS",
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p004-Albonico"
   },
   {
     "pid": 21,
@@ -42,7 +46,8 @@
     "artifactURL": "https://anonymous.4open.science/r/lexcheck-7B5B/README.md",
     "notes": "link expired",
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p005-Chen"
   },
   {
     "pid": 39,
@@ -51,7 +56,8 @@
     "artifactURL": "https://figshare.com/s/453a1f1a5c920066393f",
     "notes": "Ollama (`llama3.1:8b`)",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p007-Patkar"
   },
   {
     "pid": 69,
@@ -60,7 +66,8 @@
     "artifactURL": "https://doi.org/10.5281/zenodo.20278447",
     "notes": null,
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p010-Arif"
   },
   {
     "pid": 70,
@@ -69,7 +76,8 @@
     "artifactURL": "https://tinyurl.com/dont-bother-with-a-second-llm",
     "notes": "OpenRouter API key",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p011-Leu"
   },
   {
     "pid": 80,
@@ -78,7 +86,8 @@
     "artifactURL": "https://zenodo.org/records/20131746",
     "notes": null,
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p012-Cobos"
   },
   {
     "pid": 147,
@@ -87,7 +96,8 @@
     "artifactURL": "https://figshare.com/s/cc75732cf3ca0c5f9247",
     "notes": "ML using CodeBERT (size 2GB)",
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p013-Shome"
   },
   {
     "pid": 161,
@@ -96,7 +106,8 @@
     "artifactURL": "https://figshare.com/s/c2691d18d1cb93dce512",
     "notes": "Access GitHub",
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p015-Boschanski"
   },
   {
     "pid": 181,
@@ -105,7 +116,8 @@
     "artifactURL": "https://figshare.com/s/3212c49ce6022c33fd6d",
     "notes": null,
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p017-Galipelli"
   },
   {
     "pid": 220,
@@ -114,7 +126,8 @@
     "artifactURL": "https://doi.org/10.5281/zenodo.20276750",
     "notes": "Anthropic-API-compatible LLM",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p018-Ozayturk"
   },
   {
     "pid": 229,
@@ -123,7 +136,8 @@
     "artifactURL": "https://anonymous.4open.science/r/State_Transition_Diagram_LLM_workflow-BE50/README.md",
     "notes": "Ollama",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p019-Faria"
   },
   {
     "pid": 237,
@@ -132,7 +146,8 @@
     "artifactURL": "https://anonymous.4open.science/r/fdrresttest-4802",
     "notes": "OpenAI",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p020-Huo"
   },
   {
     "pid": 242,
@@ -141,7 +156,8 @@
     "artifactURL": "https://anonymous.4open.science/r/llm-judge-reliability",
     "notes": "OpenAI",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p021-Zhan"
   },
   {
     "pid": 243,
@@ -150,7 +166,8 @@
     "artifactURL": "https://doi.org/10.5281/zenodo.20270810",
     "notes": "replication package is 3GB",
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p022-BarbaRoque"
   },
   {
     "pid": 264,
@@ -159,7 +176,8 @@
     "artifactURL": "https://anonymous.4open.science/r/l1-apg-78D5/README.md",
     "notes": "OpenAI API key required",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p023-DosSantos"
   },
   {
     "pid": 271,
@@ -168,7 +186,8 @@
     "artifactURL": "https://anonymous.4open.science/r/TestAlertSnooze-Replication-2334",
     "notes": "RQ5 optional: LLM-based CCS classification",
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p024-Shirakawa"
   },
   {
     "pid": 306,
@@ -177,7 +196,8 @@
     "artifactURL": "https://anonymous.4open.science/r/MCIBench-437F/",
     "notes": null,
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p025-Wang"
   },
   {
     "pid": 316,
@@ -186,7 +206,8 @@
     "artifactURL": "https://figshare.com/s/9ad43e04f03c7b8f7d85",
     "notes": "replication package is 3.5 GB",
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p026-Belhouchette"
   },
   {
     "pid": 364,
@@ -195,7 +216,8 @@
     "artifactURL": "https://figshare.com/s/d314ce2d7a21f0ce0586",
     "notes": "problems when downloading the files",
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p028-Chen"
   },
   {
     "pid": 370,
@@ -204,7 +226,8 @@
     "artifactURL": "https://figshare.com/s/274a16ea23303aacfdcf",
     "notes": "deepseek to recreate the results",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p029-Gulu-zada"
   },
   {
     "pid": 392,
@@ -213,7 +236,8 @@
     "artifactURL": "https://doi.org/10.5281/zenodo.17860711",
     "notes": "could require specific hardware for the measurements",
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p030-Aneggi"
   },
   {
     "pid": 400,
@@ -222,7 +246,8 @@
     "artifactURL": "https://anonymous.4open.science/status/MCP-Licentra-53E4",
     "notes": null,
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p033-Cui"
   },
   {
     "pid": 403,
@@ -231,7 +256,8 @@
     "artifactURL": "https://github.com/esem2026-ai-study/empirical-llm-bugfix-study.git",
     "notes": "GPU (optional but recommended)",
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p034-Naqvi"
   },
   {
     "pid": 419,
@@ -240,7 +266,8 @@
     "artifactURL": "https://doi.org/10.5281/zenodo.20267334",
     "notes": null,
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p035-Ayon"
   },
   {
     "pid": 428,
@@ -249,7 +276,8 @@
     "artifactURL": "https://anonymous.4open.science/r/bug-analysis-for-satd-2DF7\nhttps://anonymous.4open.science/r/DebtHunter-Tool-2335\nhttps://anonymous.4open.science/r/SATDBailiff-DebtHunter-370D",
     "notes": "HPC cluster with SLURM + GPU",
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p036-Yoshimoto"
   },
   {
     "pid": 429,
@@ -258,7 +286,8 @@
     "artifactURL": "https://doi.org/10.5281/zenodo.20042887",
     "notes": "LLM provider access key",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p037-PumaPucho"
   },
   {
     "pid": 445,
@@ -267,7 +296,8 @@
     "artifactURL": "https://figshare.com/s/c4f51911b0b8e3ee278c",
     "notes": null,
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p038-Keiseras"
   },
   {
     "pid": 479,
@@ -276,7 +306,8 @@
     "artifactURL": "https://doi.org/10.5281/zenodo.20260903",
     "notes": null,
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p039-Barros"
   },
   {
     "pid": 511,
@@ -285,7 +316,8 @@
     "artifactURL": "https://zenodo.org/records/20257267\nhttps://github.com/esemapr2026/ESEM_APR_2026",
     "notes": "DeepSeek-V3.2",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p040-Liu"
   },
   {
     "pid": 513,
@@ -294,7 +326,8 @@
     "artifactURL": "https://anonymous.4open.science/r/ComparativeComprehensionLLM-2328/",
     "notes": null,
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p041-Sun"
   },
   {
     "pid": 548,
@@ -303,7 +336,8 @@
     "artifactURL": "https://doi.org/10.5281/zenodo.20285005",
     "notes": "Ollama",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p042-Alizadeh"
   },
   {
     "pid": 584,
@@ -312,7 +346,8 @@
     "artifactURL": "https://anonymous.4open.science/r/nem_analysis_2026-4AF1/README.md",
     "notes": "Qwen2.5-72B",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p043-Cui"
   },
   {
     "pid": 606,
@@ -321,7 +356,8 @@
     "artifactURL": "https://anonymous.4open.science/r/CangjieBench-ECFE",
     "notes": "LLM benchmark",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p044-Cheng"
   },
   {
     "pid": 649,
@@ -330,7 +366,8 @@
     "artifactURL": "https://anonymous.4open.science/r/smartcontracts-auditor-benchmark-6F91/README.md\nhttps://github.com/smartbugs/smartbugs-curated\nhttps://github.com/shenyimings/FORGE-Artifacts",
     "notes": "OPENAI_API_KEY",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p045-Khalid"
   },
   {
     "pid": 659,
@@ -339,7 +376,8 @@
     "artifactURL": "https://zenodo.org/records/20283766",
     "notes": "LLM provider access key",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p047-Liu"
   },
   {
     "pid": 693,
@@ -348,7 +386,8 @@
     "artifactURL": "https://doi.org/10.5281/zenodo.20279636",
     "notes": "OpenRouter API key",
     "llm": true,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p048-Attarwala"
   },
   {
     "pid": 704,
@@ -357,7 +396,8 @@
     "artifactURL": "https://anonymous.4open.science/r/test-aware-mutant-generation-using-llms\nhttps://zenodo.org/records/20195774",
     "notes": null,
     "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p049-Kiele"
   },
   {
     "pid": 863,
@@ -366,15 +406,7 @@
     "artifactURL": "https://doi.org/10.5281/zenodo.20265184",
     "notes": null,
     "llm": false,
-    "conference": "ESEM2026"
-  },
-  {
-    "pid": 875,
-    "title": "Hidden Dependencies in LLM-Enabled Code Generation: An Empirical Study of Regressions and Escaped Failures",
-    "abstract": "Background. Regression testing has traditionally focused on source-code changes and well specified software dependencies such as compiler versions, library versions, and operating-system platforms. However, LLM-enabled code-generation systems also depend on non-code artifacts (the model, the prompt template, and the retrieval corpus) that can change independently of the application code. Updates to any of these artifacts can silently regress previously passing tasks, and the lightweight partial-test oracles commonly used in continuous evaluation may not detect such failures. Despite the practical relevance, paired regression rates, measurement validity, and escaped-failure rates under controlled non-code dependency changes have received little empirical attention.\n\nAims. This work empirically analyzes how changes to models, prompts, and retrieval data affect the behavior of LLM-enabled code-generation systems, framing the problem as dependency-aware regression testing rather than a model or retrieval comparison. The questions addressed are failure-rate sensitivity, paired-regression frequency under the answer-bearing canonical retrieval condition, the measurement-validity decomposition of canonical regression signals (answer-bearing baseline rescue vs. non-answer-bearing retrieval sensitivity), and the fraction of dependency-induced failures that pass a lightweight oracle yet fail a stronger oracle.\n\nMethod. We designed a controlled empirical study that treats models, prompts, and retrieval data as software dependencies of an LLM-enabled code-generation pipeline. Starting from a fixed baseline, we varied one dependency dimension at a time across three open-weight 7B-class code LLMs, three prompt templates, and four retrieval-data conditions (one being a synthetic stress test), evaluated on 120 CodeRAG-Bench HumanEval tasks under three random seeds (2,880 generations across eight conditions). For each (task, condition, seed) triple, we recorded syntactic validity and per-assertion execution outcomes to derive failure rate, paired regression rate, escaped-failure rate, and across-seed flakiness, and compared each changed condition to the baseline using paired McNemar tests.\n\nResults. In the answer-bearing canonical benchmark condition, removing the retrieved document regressed 11.67% of previously passing tasks (D1, p = 1.22×10−4, stable under task-level Bonferroni correction). Replacing it with a different-task mismatched document regressed 9.17% (D2, p = 9.77 × 10−4, significant before correction but not after; reported as an auxiliary stressor). A copy-template audit showed that the M0 baseline output was a normalized byte-level copy of the canonical retrieved document in 331 of 360 generations, and 12 of 14 D1-regressed tasks exhibited this property. BM25 self-excluded retrieval and answer-stripped D0 checks showed that most of this canonical signal was due to answer-bearing baseline rescue (BM25 D1: 3 regressions / 3 recoveries; D2: 3 / 4); thus, harmful non-canonical retrieval degradation was not established in this sample. A permissive partial oracle missed 10.00% of D1 and 7.24% of D2 failures, while a stricter first-three-substantive-assertions variant reduced these rates to 2.22% and 0.83%. Model and prompt perturbations are reported as framework coverage checks rather than causal claims.\n\nConclusions. The strongest apparent regression signal arose from the answer-bearing canonical retrieval condition, but validity analyses showed that this signal primarily reflected a benchmark-induced copy-template dependency rather than an established deployment retrieval risk. These findings support dependency-aware paired regression testing and layered oracles, while cautioning that canonical answer-bearing retrieval regression rates should be interpreted as upper-bound benchmark stress signals rather than deployment-risk estimates.",
-    "artifactURL": null,
-    "notes": null,
-    "llm": false,
-    "conference": "ESEM2026"
+    "conference": "ESEM2026",
+    "PDF": "p050-Agyekum"
   }
 ]

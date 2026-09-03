@@ -7,6 +7,7 @@
     "notes": "OpenAI",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p001-Fu"
   },
   {
@@ -17,6 +18,7 @@
     "notes": "GitHub token",
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p002-Tsakpinis"
   },
   {
@@ -27,6 +29,7 @@
     "notes": null,
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p003-Al-Haque"
   },
   {
@@ -37,6 +40,7 @@
     "notes": "GitHub token, ROS",
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p004-Albonico"
   },
   {
@@ -47,6 +51,7 @@
     "notes": "",
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p005-Chen"
   },
   {
@@ -57,6 +62,7 @@
     "notes": "Ollama (`llama3.1:8b`)",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p007-Patkar"
   },
   {
@@ -67,6 +73,7 @@
     "notes": null,
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p010-Arif"
   },
   {
@@ -77,6 +84,7 @@
     "notes": "OpenRouter API key",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p011-Leu"
   },
   {
@@ -87,6 +95,7 @@
     "notes": null,
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p012-Cobos"
   },
   {
@@ -97,6 +106,7 @@
     "notes": "ML using CodeBERT (size 2GB)",
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p013-Shome"
   },
   {
@@ -107,6 +117,7 @@
     "notes": "Access GitHub",
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p015-Boschanski"
   },
   {
@@ -117,6 +128,7 @@
     "notes": null,
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p017-Galipelli"
   },
   {
@@ -127,6 +139,7 @@
     "notes": "Anthropic-API-compatible LLM",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p018-Ozayturk"
   },
   {
@@ -137,6 +150,7 @@
     "notes": "Ollama",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p019-Faria"
   },
   {
@@ -147,6 +161,7 @@
     "notes": "OpenAI",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p020-Huo"
   },
   {
@@ -157,6 +172,7 @@
     "notes": "OpenAI",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p021-Zhan"
   },
   {
@@ -167,6 +183,7 @@
     "notes": "replication package is 3GB",
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p022-BarbaRoque"
   },
   {
@@ -177,6 +194,7 @@
     "notes": "OpenAI API key required",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p023-DosSantos"
   },
   {
@@ -187,6 +205,7 @@
     "notes": "RQ5 optional: LLM-based CCS classification",
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p024-Shirakawa"
   },
   {
@@ -197,6 +216,7 @@
     "notes": null,
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p025-Wang"
   },
   {
@@ -207,6 +227,7 @@
     "notes": "replication package is 3.5 GB",
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p026-Belhouchette"
   },
   {
@@ -217,6 +238,7 @@
     "notes": "problems when downloading the files",
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p028-Chen"
   },
   {
@@ -227,6 +249,7 @@
     "notes": "deepseek to recreate the results",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p029-Gulu-zada"
   },
   {
@@ -237,6 +260,7 @@
     "notes": "could require specific hardware for the measurements",
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p030-Aneggi"
   },
   {
@@ -247,6 +271,7 @@
     "notes": null,
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p033-Cui"
   },
   {
@@ -257,6 +282,7 @@
     "notes": "GPU (optional but recommended)",
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p034-Naqvi"
   },
   {
@@ -267,6 +293,7 @@
     "notes": null,
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p035-Ayon"
   },
   {
@@ -277,6 +304,7 @@
     "notes": "LLM provider access key",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p037-PumaPucho"
   },
   {
@@ -287,6 +315,7 @@
     "notes": null,
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p038-Keiseras"
   },
   {
@@ -297,6 +326,7 @@
     "notes": null,
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p039-Barros"
   },
   {
@@ -307,6 +337,7 @@
     "notes": "DeepSeek-V3.2",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p040-Liu"
   },
   {
@@ -317,6 +348,7 @@
     "notes": null,
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p041-Sun"
   },
   {
@@ -327,6 +359,7 @@
     "notes": "Ollama",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p042-Alizadeh"
   },
   {
@@ -337,6 +370,7 @@
     "notes": "Qwen2.5-72B",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p043-Cui"
   },
   {
@@ -347,6 +381,7 @@
     "notes": "LLM benchmark",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p044-Cheng"
   },
   {
@@ -357,6 +392,7 @@
     "notes": "OPENAI_API_KEY",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p045-Khalid"
   },
   {
@@ -367,6 +403,7 @@
     "notes": "LLM provider access key",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p047-Liu"
   },
   {
@@ -377,6 +414,7 @@
     "notes": "OpenRouter API key",
     "llm": true,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p048-Attarwala"
   },
   {
@@ -387,6 +425,7 @@
     "notes": null,
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p049-Kiele"
   },
   {
@@ -397,6 +436,7 @@
     "notes": null,
     "llm": false,
     "conference": "ESEM2026",
+    "track": "Technical Track",
     "PDF": "p050-Agyekum"
   }
 ]

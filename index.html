@@ -27,13 +27,13 @@
       <table class="striped">
         <thead>
           <tr>
-            <th scope="col">ID</th>
             <th scope="col">Title</th>
             <th scope="col">Abstract</th>
             <th scope="col">Artifact</th>
             <th scope="col">PDF</th>
             <th scope="col">Notes</th>
             <th scope="col">LLM</th>
+            <th scope="col">Conference</th>
           </tr>
         </thead>
         <tbody id="papers"></tbody>
@@ -41,15 +41,15 @@
     </div>
   </main>
   <script>
-    fetch("data/esem26.json")
-      .then(response => response.json())
+    Promise.all(["data/esem26.json", "data/esem26-ervr.json", "data/ASE25.json"].map(url => fetch(url).then(response => response.json())))
+      .then(results => results.flat())
       .then(papers => {
         const tbody = document.querySelector("#papers");
         for (const paper of papers) {
           const row = tbody.insertRow();
-          row.dataset.llm = paper.llm;
+          const llm = paper.llm ?? paper.LLM;
+          row.dataset.llm = llm;
 
-          row.insertCell().textContent = paper.pid;
           row.insertCell().textContent = paper.title;
           const abstract = document.createElement("em");
           abstract.textContent = "show";
@@ -75,7 +75,7 @@
           const pdfCell = row.insertCell();
           if (paper.PDF) {
             const link = document.createElement("a");
-            link.href = `https://andreasbauer.org/esem26/${paper.PDF}.pdf`;
+            link.href = paper.PDF;
             link.textContent = "PDF";
             link.target = "_blank";
             link.rel = "noopener";
@@ -83,7 +83,7 @@
           } else {
             pdfCell.textContent = "—";
           }
-          for (const value of [paper.notes, paper.llm ? "Yes" : "No"]) {
+          for (const value of [paper.notes, llm ? "Yes" : "No", paper.conference]) {
             row.insertCell().textContent = value ?? "—";
           }
         }

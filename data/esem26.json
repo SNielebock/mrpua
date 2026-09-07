@@ -8,7 +8,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p001-Fu"
+    "PDF": "https://andreasbauer.org/esem26/p001-Fu.pdf"
   },
   {
     "pid": 9,
@@ -19,7 +19,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p002-Tsakpinis"
+    "PDF": "https://andreasbauer.org/esem26/p002-Tsakpinis.pdf"
   },
   {
     "pid": 12,
@@ -30,7 +30,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p003-Al-Haque"
+    "PDF": "https://andreasbauer.org/esem26/p003-Al-Haque.pdf"
   },
   {
     "pid": 13,
@@ -41,7 +41,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p004-Albonico"
+    "PDF": "https://andreasbauer.org/esem26/p004-Albonico.pdf"
   },
   {
     "pid": 21,
@@ -52,7 +52,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p005-Chen"
+    "PDF": "https://andreasbauer.org/esem26/p005-Chen.pdf"
   },
   {
     "pid": 39,
@@ -63,7 +63,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p007-Patkar"
+    "PDF": "https://andreasbauer.org/esem26/p007-Patkar.pdf"
   },
   {
     "pid": 69,
@@ -74,7 +74,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p010-Arif"
+    "PDF": "https://andreasbauer.org/esem26/p010-Arif.pdf"
   },
   {
     "pid": 70,
@@ -85,7 +85,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p011-Leu"
+    "PDF": "https://andreasbauer.org/esem26/p011-Leu.pdf"
   },
   {
     "pid": 80,
@@ -96,7 +96,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p012-Cobos"
+    "PDF": "https://andreasbauer.org/esem26/p012-Cobos.pdf"
   },
   {
     "pid": 147,
@@ -107,7 +107,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p013-Shome"
+    "PDF": "https://andreasbauer.org/esem26/p013-Shome.pdf"
   },
   {
     "pid": 161,
@@ -118,7 +118,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p015-Boschanski"
+    "PDF": "https://andreasbauer.org/esem26/p015-Boschanski.pdf"
   },
   {
     "pid": 181,
@@ -129,7 +129,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p017-Galipelli"
+    "PDF": "https://andreasbauer.org/esem26/p017-Galipelli.pdf"
   },
   {
     "pid": 220,
@@ -140,7 +140,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p018-Ozayturk"
+    "PDF": "https://andreasbauer.org/esem26/p018-Ozayturk.pdf"
   },
   {
     "pid": 229,
@@ -151,7 +151,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p019-Faria"
+    "PDF": "https://andreasbauer.org/esem26/p019-Faria.pdf"
   },
   {
     "pid": 237,
@@ -162,7 +162,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p020-Huo"
+    "PDF": "https://andreasbauer.org/esem26/p020-Huo.pdf"
   },
   {
     "pid": 242,
@@ -173,7 +173,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p021-Zhan"
+    "PDF": "https://andreasbauer.org/esem26/p021-Zhan.pdf"
   },
   {
     "pid": 243,
@@ -184,7 +184,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p022-BarbaRoque"
+    "PDF": "https://andreasbauer.org/esem26/p022-BarbaRoque.pdf"
   },
   {
     "pid": 264,
@@ -195,7 +195,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p023-DosSantos"
+    "PDF": "https://andreasbauer.org/esem26/p023-DosSantos.pdf"
   },
   {
     "pid": 271,
@@ -206,7 +206,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p024-Shirakawa"
+    "PDF": "https://andreasbauer.org/esem26/p024-Shirakawa.pdf"
   },
   {
     "pid": 306,
@@ -217,7 +217,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p025-Wang"
+    "PDF": "https://andreasbauer.org/esem26/p025-Wang.pdf"
   },
   {
     "pid": 316,
@@ -228,7 +228,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p026-Belhouchette"
+    "PDF": "https://andreasbauer.org/esem26/p026-Belhouchette.pdf"
   },
   {
     "pid": 364,
@@ -239,7 +239,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p028-Chen"
+    "PDF": "https://andreasbauer.org/esem26/p028-Chen.pdf"
   },
   {
     "pid": 370,
@@ -250,7 +250,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p029-Gulu-zada"
+    "PDF": "https://andreasbauer.org/esem26/p029-Gulu-zada.pdf"
   },
   {
     "pid": 392,
@@ -261,7 +261,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p030-Aneggi"
+    "PDF": "https://andreasbauer.org/esem26/p030-Aneggi.pdf"
   },
   {
     "pid": 400,
@@ -272,7 +272,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p033-Cui"
+    "PDF": "https://andreasbauer.org/esem26/p033-Cui.pdf"
   },
   {
     "pid": 403,
@@ -283,7 +283,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p034-Naqvi"
+    "PDF": "https://andreasbauer.org/esem26/p034-Naqvi.pdf"
   },
   {
     "pid": 419,
@@ -294,7 +294,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p035-Ayon"
+    "PDF": "https://andreasbauer.org/esem26/p035-Ayon.pdf"
   },
   {
     "pid": 429,
@@ -305,7 +305,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p037-PumaPucho"
+    "PDF": "https://andreasbauer.org/esem26/p037-PumaPucho.pdf"
   },
   {
     "pid": 445,
@@ -316,7 +316,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p038-Keiseras"
+    "PDF": "https://andreasbauer.org/esem26/p038-Keiseras.pdf"
   },
   {
     "pid": 479,
@@ -327,7 +327,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p039-Barros"
+    "PDF": "https://andreasbauer.org/esem26/p039-Barros.pdf"
   },
   {
     "pid": 511,
@@ -338,7 +338,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p040-Liu"
+    "PDF": "https://andreasbauer.org/esem26/p040-Liu.pdf"
   },
   {
     "pid": 513,
@@ -349,7 +349,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p041-Sun"
+    "PDF": "https://andreasbauer.org/esem26/p041-Sun.pdf"
   },
   {
     "pid": 548,
@@ -360,7 +360,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p042-Alizadeh"
+    "PDF": "https://andreasbauer.org/esem26/p042-Alizadeh.pdf"
   },
   {
     "pid": 584,
@@ -371,7 +371,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p043-Cui"
+    "PDF": "https://andreasbauer.org/esem26/p043-Cui.pdf"
   },
   {
     "pid": 606,
@@ -382,7 +382,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p044-Cheng"
+    "PDF": "https://andreasbauer.org/esem26/p044-Cheng.pdf"
   },
   {
     "pid": 649,
@@ -393,7 +393,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p045-Khalid"
+    "PDF": "https://andreasbauer.org/esem26/p045-Khalid.pdf"
   },
   {
     "pid": 659,
@@ -404,7 +404,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p047-Liu"
+    "PDF": "https://andreasbauer.org/esem26/p047-Liu.pdf"
   },
   {
     "pid": 693,
@@ -415,7 +415,7 @@
     "llm": true,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p048-Attarwala"
+    "PDF": "https://andreasbauer.org/esem26/p048-Attarwala.pdf"
   },
   {
     "pid": 704,
@@ -426,7 +426,7 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p049-Kiele"
+    "PDF": "https://andreasbauer.org/esem26/p049-Kiele.pdf"
   },
   {
     "pid": 863,
@@ -437,6 +437,6 @@
     "llm": false,
     "conference": "ESEM2026",
     "track": "Technical Track",
-    "PDF": "p050-Agyekum"
+    "PDF": "https://andreasbauer.org/esem26/p050-Agyekum.pdf"
   }
 ]

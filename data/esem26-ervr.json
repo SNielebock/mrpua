@@ -9,7 +9,7 @@
     "LLM": false,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p053-Mehl"
+    "PDF": "https://andreasbauer.org/esem26/p053-Mehl.pdf"
   },
   {
     "pid": 25,
@@ -21,7 +21,7 @@
     "LLM": false,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p054-Abubakar"
+    "PDF": "https://andreasbauer.org/esem26/p054-Abubakar.pdf"
   },
   {
     "pid": 38,
@@ -33,7 +33,7 @@
     "LLM": true,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p058-Mbida"
+    "PDF": "https://andreasbauer.org/esem26/p058-Mbida.pdf"
   },
   {
     "pid": 40,
@@ -44,7 +44,7 @@
     "LLM": true,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p059-Coppola",
+    "PDF": "https://andreasbauer.org/esem26/p059-Coppola.pdf",
     "notes": "OLAMA"
   },
   {
@@ -56,7 +56,7 @@
     "LLM": false,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p062-Liljas",
+    "PDF": "https://andreasbauer.org/esem26/p062-Liljas.pdf",
     "notes": "optional LLM part"
   },
   {
@@ -68,7 +68,7 @@
     "LLM": true,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p063-Wang",
+    "PDF": "https://andreasbauer.org/esem26/p063-Wang.pdf",
     "notes": "uses multple advanced LLM models in different versions"
   },
   {
@@ -80,7 +80,7 @@
     "LLM": true,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p065-Younas",
+    "PDF": "https://andreasbauer.org/esem26/p065-Younas.pdf",
     "notes": "Groq API key"
   },
   {
@@ -92,7 +92,7 @@
     "LLM": false,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p067-Hamza",
+    "PDF": "https://andreasbauer.org/esem26/p067-Hamza.pdf",
     "notes": "No README, GitHub token"
   },
   {
@@ -104,7 +104,7 @@
     "LLM": true,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p068-Mengistu",
+    "PDF": "https://andreasbauer.org/esem26/p068-Mengistu.pdf",
     "notes": "OpenAI"
   },
   {
@@ -116,7 +116,7 @@
     "LLM": true,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p070-Dao",
+    "PDF": "https://andreasbauer.org/esem26/p070-Dao.pdf",
     "notes": "Llama, Mistral, Qwen"
   },
   {
@@ -128,7 +128,7 @@
     "LLM": false,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p075-Selvanayagam",
+    "PDF": "https://andreasbauer.org/esem26/p075-Selvanayagam.pdf",
     "notes": "using datasets from Huggingface"
   },
   {
@@ -140,7 +140,7 @@
     "LLM": true,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p076-Dang",
+    "PDF": "https://andreasbauer.org/esem26/p076-Dang.pdf",
     "notes": ""
   },
   {
@@ -152,7 +152,7 @@
     "LLM": true,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p077-Yengejeh",
+    "PDF": "https://andreasbauer.org/esem26/p077-Yengejeh.pdf",
     "notes": "OpenAI"
   },
   {
@@ -164,7 +164,7 @@
     "LLM": true,
     "conference": "ESEM2026",
     "track": "Emerging Results (ERVR)",
-    "PDF": "p078-Carbonell",
+    "PDF": "https://andreasbauer.org/esem26/p078-Carbonell.pdf",
     "notes": "Claude, Gemini"
-  },
+  }
 ]

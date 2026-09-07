@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artifact Selection - Making Replication Packages Usable (Again) - ESEM 2026</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <style>
+    [data-tooltip]::before {
+      width: min(40rem, 80vw);
+      white-space: normal;
+      text-align: left;
+    }
+    table.striped tbody tr[data-llm="true"] > td {
+      background-color: rgb(255 165 0 / 20%);
+    }
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--pico-spacing);
+    }
+    .filters label {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <h2>Artifact Selection - Making Replication Packages Usable (Again) - ESEM 2026</h2>
+    </div>
+    <div class="filters container">
+      <label>
+          <input id="filter" type="text" name="text" placeholder="Filter based on title and abstract" aria-label="Text">
+      </label>
+    <label>
+      <input id="hide-llm" type="checkbox">
+      Hide entries that use LLMs
+    </label>
+    <label>
+      <input id="show-esem" type="checkbox" checked>
+        Show ESEM 2026 papers
+    </label>
+    <label>
+      <input id="show-ase" type="checkbox" checked>
+        Show ASE 2025 papers
+    </label>
+    </div>
+    <div class="overflow-auto">
+      <table class="striped">
+
+        <thead>
+          <tr><td id="row-count" colspan="7">Rows: 0</td></tr>
+        </thead>
+        <thead>
+          <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Abstract</th>
+            <th scope="col">Artifact</th>
+            <th scope="col">PDF</th>
+            <th scope="col">Notes</th>
+            <th scope="col">LLM</th>
+            <th scope="col">Conference</th>
+          </tr>
+        </thead>
+        <tbody id="papers"></tbody>
+      </table>
+    </div>
+  </main>
+  <script>
+    const updateRowCount = () => {
+      let count = 0;
+      for (const row of document.querySelector("#papers").rows) count += !row.hidden;
+      document.querySelector("#row-count").textContent = `Rows: ${count}`;
+    };
+    const applyFilters = () => {
+      const query = document.querySelector("#filter").value.trim().toLowerCase();
+      const hideLlm = document.querySelector("#hide-llm").checked;
+      const showEsem = document.querySelector("#show-esem").checked;
+      const showAse = document.querySelector("#show-ase").checked;
+      for (const row of document.querySelector("#papers").rows) {
+        const textMatches = !query || row.cells[0].textContent.toLowerCase().includes(query) ||
+          (row.cells[1].firstElementChild.dataset.tooltip ?? "").toLowerCase().includes(query);
+        row.hidden = !textMatches || (hideLlm && row.dataset.llm === "true") ||
+          (row.dataset.conference === "ESEM2026" && !showEsem) ||
+          (row.dataset.conference === "ASE2025" && !showAse);
+      }
+      updateRowCount();
+    };
+    Promise.all(["data/esem26.json", "data/esem26-ervr.json", "data/ASE25.json"].map(url => fetch(url).then(response => response.json())))
+      .then(results => results.flat())
+      .then(papers => {
+        const tbody = document.querySelector("#papers");
+        for (const paper of papers) {
+          const row = tbody.insertRow();
+          const llm = paper.llm ?? paper.LLM;
+          row.dataset.llm = llm;
+          row.dataset.conference = paper.conference;
+
+          row.insertCell().textContent = paper.title;
+          const abstract = document.createElement("em");
+          abstract.textContent = "show";
+          abstract.dataset.tooltip = paper.abstract;
+          abstract.dataset.placement = "bottom";
+          abstract.setAttribute("aria-label", paper.abstract);
+          row.insertCell().append(abstract);
+
+          const artifactCell = row.insertCell();
+          if (paper.artifactURL) {
+            for (const [index, url] of paper.artifactURL.split("\n").entries()) {
+              if (index) artifactCell.append(document.createElement("br"));
+              const link = document.createElement("a");
+              link.href = url;
+              link.textContent = "link";
+              link.target = "_blank";
+              link.rel = "noopener";
+              artifactCell.append(link);
+            }
+          } else {
+            artifactCell.textContent = "—";
+          }
+          const pdfCell = row.insertCell();
+          if (paper.PDF) {
+            const link = document.createElement("a");
+            link.href = paper.PDF;
+            link.textContent = "PDF";
+            link.target = "_blank";
+            link.rel = "noopener";
+            pdfCell.append(link);
+          } else {
+            pdfCell.textContent = "—";
+          }
+          for (const value of [paper.notes, llm ? "Yes" : "No", paper.conference]) {
+            row.insertCell().textContent = value ?? "—";
+          }
+        }
+        applyFilters();
+      });
+    document.querySelector("#filter").addEventListener("input", applyFilters);
+    for (const selector of ["#hide-llm", "#show-esem", "#show-ase"]) {
+      document.querySelector(selector).addEventListener("change", applyFilters);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+[
+  {
+    "pid": "10.1109/ESEM64174.2025.00073",
+    "title": "A Defect Taxonomy for Infrastructure as Code: A Replication Study",
+    "abstract": "Background: As Infrastructure as Code (IaC) becomes standard practice, ensuring the reliability of IaC scripts is essential. Defect taxonomies are valuable tools for this, offering a common language for issues and enabling systematic tracking. A significant prior study developed such a taxonomy, but based it exclusively on the declarative language Puppet. It remained unknown whether this taxonomy applies to programming language-based IaC (PLIaC) tools like Pulumi, Terraform CDK, and AWS CDK. Aim: We replicated this foundational work to assess the generalizability of the taxonomy across a broader and more diverse landscape. Method: We performed qualitative analysis on 3,364 defect-related commits from 285 open-source PL-IaC repositories (PIPr dataset) to derive a PL-IaC specific defect taxonomy. We then enhanced the ACID tool, originally developed for the prior study, to automatically classify and analyze defect distributions across an expanded dataset- 447 open-source repositories and 94 proprietary projects from VTEX (e-commerce) and Nubank (financial)-incorporating modern PL-IaC tools absent in the original work. Results: Our research confirmed the same eight defect categories identified in the original study, with idempotency and security defects appearing infrequently but persistently across projects. Configuration Data defects maintain high frequency in both open-source and proprietary codebases. Despite differences in project types, overall defect proportions remain similar. Conclusions: Our replication supports the generalizability of the original taxonomy, suggesting IaC development challenges surpass organizational boundaries. Configuration Data defects emerge as a persistent highfrequency problem, while idempotency and security defects remain important concerns despite lower frequency. These patterns appear consistent across open-source and proprietary projects, indicating they are fundamental to the IaC paradigm itself, transcending specific tools or project types.",
+    "artifactURL": "https://github.com/WendellTMO/go8-replication-tool",
+    "notes": "",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323468"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00049",
+    "title": "Aggregating Empirical Evidence from Data Strategies Studies: A Case on Model Quantization",
+    "abstract": "Background: As empirical software engineering evolves, more studies adopt data strategies-approaches that investigate digital artifacts such as models, source code, or system logs rather than relying on human subjects. Synthesizing results from such studies introduces new methodological challenges. Aims: This study assesses the effects of model quantization on correctness and resource efficiency in deep learning (DL) systems. Additionally, it explores the methodological implications of aggregating evidence from empirical studies that adopt data strategies. Method: We conducted a research synthesis of six primary studies that evaluate model quantization. We applied the Structured Synthesis Method (SSM) to aggregate the findings, which combines qualitative and quantitative evidence through diagrammatic modeling. A total of 19 evidence models were extracted and aggregated. Results: The aggregated evidence indicates that model quantization weakly negatively affects correctness metrics while consistently improving resource efficiency metrics, including storage size, inference latency, and GPU energy consumption-a manageable trade-off for many DL deployment contexts. Evidence across quantization techniques remains fragmented, underscoring the need for more focused empirical studies per technique. Conclusions: Model quantization offers substantial efficiency benefits with minor trade-offs in correctness, making it a suitable optimization strategy for resource-constrained environments. This study also demonstrates the feasibility of using SSM to synthesize findings from data strategy-based research.",
+    "artifactURL": "https://github.com/santidrj/model-quantization-aggregation",
+    "notes": "GEMINI, Created a prebuild Docker image. They run JupyterLab in the container.",
+    "llm": true,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323501"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00051",
+    "title": "Another Systematic Review? A Critical Analysis of Systematic Literature Reviews on Agile Effort and Cost Estimation",
+    "abstract": "Background: Systematic literature reviews (SLRs) have become prevalent in software engineering research. Several researchers may conduct SLRs on similar topics without a prospective register for SLR protocols. However, even ignoring these unavoidable duplications of effort in the simultaneous conduct of SLRs, the proliferation of overlapping and often repetitive SLRs indicates that researchers are not extensively checking for existing SLRs on a topic. Given how effort-intensive it is to design, conduct, and report an SLR, the situation is less than ideal for software engineering research. Aim: To understand how authors justify additional SLRs on a topic. Method: To illustrate the issue and develop suggestions for improvement to address this issue, we have intentionally picked a sufficiently narrow but well-researched topic, i.e., effort estimation in Agile software development. We identify common justification patterns through a qualitative content analysis of $\\mathbf{1 8}$ published SLRs. We further consider the citation data, publication years, publication venues, and the quality of the SLRs when interpreting the results. Results: The common justification patterns include authors claiming gaps in coverage, methodological limitations in prior studies, temporal obsolescence of previous SLRs, or rapid technological and methodological advancements necessitating updated syntheses. Conclusion: Our in-depth analysis of SLRs on a fairly narrow topic provides insights into SLRs in software engineering in general. By emphasizing the need for identifying existing SLRs and for justifying the undertaking of further SLRs, both in design and review guidelines and as a policy of conferences and journals, we can reduce the likelihood of duplication of effort and increase the rate of progress in the field.",
+    "artifactURL": "https://figshare.com/articles/dataset/Another_Systematic_Review_A_Critical_Analysis_of_Systematic_Literature_Reviews_on_Agile_Effort_and_Cost_Estimation_--_Supplement_Materials/29542682?file=56178314",
+    "notes": "",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323389"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00028",
+    "title": "Assessing Diversity in Creating Seed Set for Snowballing Search for Systematic Literature Review in Software Engineering",
+    "abstract": "Background: Systematic literature reviews (SLRs) require robust search strategies to ensure comprehensive coverage. Although database searches have traditionally been the primary method, snowballing has emerged as an effective alternative strategy in software engineering research. However, the success of snowballing heavily depends on the initial seed set's composition, particularly regarding diversity across authors, publication years, and venues. Objective: This study investigates how different diversity characteristics in seed set creation influence snowballing performance and effectiveness in identifying relevant literature. Method: We conducted replication studies of two existing SLRs, comparing their conventional seed set creation approaches with our diversity-driven methodology, where we systematically incorporated diversity characteristics into constructing the seed sets. Results: Our diversity-based approach demonstrated substantial improvements, with a precision of 0.019 (compared to 0.006 in the original), a relative recall of 0.97 (versus 0.921), and an F-measure of 0.0372 (improving from 0.0119). Conclusions: The empirical evidence suggests that incorporating diversity criteria in seed set creation enhances snowballing efficacy while maintaining comprehensive coverage of relevant literature. This approach offers a systematic and effective method for conducting snowballbased literature reviews in software engineering research.",
+    "artifactURL": "https://zenodo.org/records/15284025",
+    "notes": "",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323338"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00067",
+    "title": "Developer Prompts in Practice: An Empirical Study of Bias, Security, and Optimization",
+    "abstract": "Background: Modern software increasingly relies on Developer Prompts (Dev Prompts)-snippets of natural language embedded directly in source code-to leverage the capabilities of Large Language Models (LLMs) for tasks like classification, summarization, and content generation. Yet, despite the rapid adoption of LLMs and Dev Prompts, it remains unclear to what extent these prompts unintentionally encode biases, invite injection attacks, or underperform due to sub-optimal phrasing. Aims: To address this gap, we present a large-scale empirical analysis of Dev Prompts found in real open-source software projects to assess the prevalence of bias, security vulnerabilities, and performance issues. Then, we propose and validate approaches to mitigate these issues, and demonstrate the practical feasibility of addressing them. Method: We systematically sampled 2,320 Dev Prompts from a set of 40,573 found in open-source software projects, to identify the prevalence of the aforementioned issues. We also implemented a lightweight tool that automatically rewrites flawed prompts. Results: We find evidence of easy-to-fix issues across multiple dimensions: 3.46% of prompts contain language likely to lead to biased model responses, while over 10.75% are vulnerable to straightforward injection attacks, and we posit that many more are amenable to performance improvement through minor adjustments. Our prototype successfully mitigated bias in 68.29% of cases, prevented injection vulnerabilities in 41.81%, and improved performance in 37.1% of tested prompts. Conclusions: Our findings highlight an urgent need for future research and dedicated tool-support to help software developers write safer, fairer, and more effective prompts. To facilitate ongoing work in this emerging area, we share our data and analysis infrastructure publicly. We encourage the community to further explore the implications of Dev Prompts in modern software.",
+    "artifactURL": "https://figshare.com/s/930b08c981b41f28470c?file=49254193",
+    "notes": "GPT, Llama, Python code + VS Code extension",
+    "llm": true,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323354"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00032",
+    "title": "Exploring Engagement in Hybrid Meetings",
+    "abstract": "Background. The widespread adoption of hybrid work following the COVID-19 pandemic has fundamentally transformed software development practices, introducing new challenges in communication and collaboration as organizations transition from traditional office-based structures to flexible working arrangements. This shift has established a new organizational norm where even traditionally office-first companies now embrace hybrid team structures. While remote participation in meetings has become commonplace in this new environment, it may lead to isolation, alienation, and decreased engagement among remote team members. Aims. This study aims to identify and characterize engagement patterns in hybrid meetings through objective measurements, focusing on the differences between co-located and remote participants. Method. We studied professionals from three software companies over several weeks, employing a multimodal approach to measure engagement. Data were collected through self-reported questionnaires and physiological measurements using biometric devices during hybrid meetings to understand engagement dynamics. Results. The regression analyses revealed comparable engagement levels between onsite and remote participants, though remote participants show lower engagement in long meetings regardless of participation mode. Active roles positively correlate with higher engagement, while larger meetings and afternoon sessions are associated with lower engagement. Conclusions. Our results offer insights into factors associated with engagement and disengagement in hybrid meetings, as well as potential meeting improvement recommendations. These insights are potentially relevant not only for software teams but also for knowledge-intensive organizations across various sectors facing similar hybrid collaboration challenges.",
+    "artifactURL": "https://figshare.com/s/85a3c7e7a29db0006dd2",
+    "notes": "",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323467"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00052",
+    "title": "Exploring the Jupyter Ecosystem: An Empirical Study of Bugs and Vulnerabilities",
+    "abstract": "Background. Jupyter notebooks are one of the main tools used by data scientists. Notebooks include features (configuration scripts, markdown, images, etc.) that make them challenging to analyze compared to traditional software. As a result, existing software engineering models, tools, and studies do not capture the uniqueness of Notebook's behavior. Aims. This paper aims to provide a large-scale empirical study of bugs and vulnerabilities in the Notebook ecosystem. Method. We collected and analyzed a large dataset of Notebooks from two major platforms. Our methodology involved quantitative analyses of notebook characteristics (such as complexity metrics, contributor activity, and documentation) to identify factors correlated with bugs. Additionally, we conducted a qualitative study using grounded theory to categorize notebook bugs, resulting in a comprehensive bug taxonomy. Finally, we analyzed security-related commits and vulnerability reports to assess risks associated with Notebook deployment frameworks. Results. Our findings highlight that configuration issues are among the most common bugs in notebook documents, followed by incorrect API usage. Finally, we explore common vulnerabilities associated with popular deployment frameworks to better understand risks associated with Notebook development. Conclusions. This work highlights that notebooks are less wellsupported than traditional software, resulting in more complex code, misconfiguration, and poor maintenance.",
+    "artifactURL": "https://github.com/jwyjohn/Exploring-the-Jupyter-Ecosystem",
+    "notes": "",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323368"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00048",
+    "title": "Go-Oracle: Automated Test Oracle for Go Concurrency Bugs",
+    "abstract": "a) Background:: The Go programming language has gained significant traction for developing software, especially in various infrastructure systems. Nonetheless, concurrency bugs have become a prevalent issue within Go, presenting a unique challenge due to the language's dual concurrency mechanisms-communicating sequential processes and shared memory. Detecting concurrency bugs and accurately classifying program executions as pass or fail presents an immense challenge, even for domain experts. We conducted a survey with expert developers at Bytedance that confirmed this challenge. b) Aims:: Our work seeks to address the test oracle problem for Go programs, to automatically classify test executions as pass or fail. This problem has not been investigated in the literature owing to Go's distinctive programming model. c) Method:: Our approach involves collecting both passing and failing execution traces from various subject Go programs. We capture a comprehensive array of execution events using the native Go execution tracer. Subsequently, we preprocess and encode these traces before training a transformer-based neural network to effectively classify the traces as either passing or failing. The evaluation of our approach encompasses 8 subject programs sourced from the GoBench repository and comparison against existing bug monitors. d) Results:: Go-Oracle achieved $\\mathbf{9 6 \\%}$ accuracy in classifying failing traces, surpassing three state-of-the-art concurrency bug monitors (max 75 % accuracy). Additionally, our tool was assessed by developers at a company, Bytedance, who strongly agreed that they would use the Go-Oracle tool over the current practice of manual inspections to classify tests for Go programs as pass or fail. e) Conclusion:: Go-Oracle, demonstrates high accuracies in classifying test execution for Go programs even when operating with a limited dataset, showcasing the efficacy and potential of our methodology.",
+    "artifactURL": "https://github.com/ajitharajan/GoOracle",
+    "notes": "",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323359"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00072",
+    "title": "How do Community Smells Influence Self-Admitted Technical Debt in Machine Learning Projects?",
+    "abstract": "Background: Community smells reflect poor organizational practices that often lead to socio-technical issues and the accumulation of Self-Admitted Technical Debt (SATD). While prior studies have explored these problems in general software systems, their interplay in machine learning (ML)-based projects remains largely under-examined. Aims: In this study, we aim to investigate the prevalence of community smells and their relationship with SATD in open-source ML projects, analyzing data at the release level. Methods: We analyzed $\\mathbf{1 5 5 ~ M L}$-based systems across multiple releases to examine the prevalence of ten community smell types. Then we detected SATD at the release level and applied statistical analysis to examine its correlation with community smells. Next, we considered the six identified types of SATD to determine which community smells are the most associated with each debt category. Finally, we analyzed how the community smells and SATD evolve over the releases, uncovering project size-dependent trends and shared trajectories. Results: Community smells are found to be widespread, exhibiting distinct distribution patterns across small, medium and large projects. Certain smells, such as Radio Silence and Organizational Silos, are strongly correlated with higher SATD occurrences, while authority- and communication-related smells often co-occur with persistent code and design debt. Temporal analysis revealed shared evolutionary trajectories of smells and SATD, influenced by project size. Conclusion: Our findings emphasize the importance of early detection and mitigation of socio-technical issues to maintain the long-term quality and sustainability of ML-based systems.",
+    "artifactURL": "https://github.com/cynthia247/ESEM2025",
+    "notes": "",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323275"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00054",
+    "title": "Interrogative Comments Posed by Review Comment Generators: An Empirical Study of Gerrit",
+    "abstract": "Background: Review Comment Generators (RCGs) are models trained to automate code review tasks. Prior work shows that RCGs can generate review comments to initiate discussion threads; however, their ability to interact with author responses is unclear. This can be especially problematic if RCGs pose interrogative comments, i.e., comments that ask questions of other review participants. Aims: We set out to study the prevalence of RCG-generated interrogative code review comments, their similarity with the interrogative comments of humans, and the predictability of the generation of interrogative comments. Method: We study three task-specific RCGs and three RCGs based on Large Language Models (LLMs) on data from the Gerrit project using quantitative and qualitative methods. Results: We find that RCGs: (1) generate interrogative comments at a rate of $\\mathbf{1 5. 6 \\%} \\boldsymbol{-} \\mathbf{6 5. 2 6 \\%}$; (2) differ from humans in generating such comments, which can stifle conversations if RCGs dissuade human reviewers from commenting deeply; and (3) produce interrogative comments with low predictability. Finally, we find that (4) the interrogative comments posed by LLMbased RCGs can differ even more substantially from human behaviour than those of task-specific RCGs. For example, the studied LLM-based RCGs pose rhetorical questions 3.16% of the time, whereas human-submitted interrogative comments pose rhetorical questions 8.74 % of the time. Conclusions: Our results suggest that neither task-specific nor LLM-based RCGs can replace human reviewers yet; however, we note opportunities for synergies. For example, RCGs tend to raise pertinent questions about exception handling of common APIs more frequently than human reviewers. Putting greater emphasis on technical comments generated by RCGs (rather than conversational ones, such as interrogative ones) will likely improve their perceived usefulness.",
+    "artifactURL": "https://zenodo.org/records/13301078",
+    "notes": "replication package is 9GB",
+    "llm": true,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323302"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00040",
+    "title": "Is Diversity a Meaningful Metric in Fairness Testing?",
+    "abstract": "Background: Individual fairness testing aims to identify individual discriminatory instances (IDIs) to improve the fairness of machine learning classifiers through retraining. While prior studies have primarily evaluated fairness testing algorithms based on efficiency and retraining performance, emerging metrics such as the diversity of identified IDIs have recently been proposed. However, these alternative metrics have not yet been established as standard evaluation criteria. Aims: This study investigates the significance of IDI diversity as a metric for evaluating fairness testing algorithms. Specifically, we aim to validate its utility as a core evaluation metric by examining its correlation with both fairness improvement and accuracy degradation in retrained classifiers. Method: We conduct an empirical study using a newly developed framework called Redi. This framework generates multiple IDI sets with controlled variations in diversity, enabling systematic evaluation of their impact on retrained classifiers. We apply Redi to analyze the correlations between IDI diversity and retraining outcomes. The validity of the framework is further supported through auxiliary empirical analyses. Results: Our experiments confirm that IDI diversity exhibits a moderate correlation with fairness improvement, while showing only a weak correlation with accuracy degradation. Additionally, our regression analysis indicates that the actual impact of diversity on fairness improvement is substantial, whereas its impact on accuracy degradation is relatively negligible. Conclusions: These results show that higher IDI diversity substantially enhances fairness with minimal accuracy loss, suggesting that it should be adopted as a meaningful proxy metric for evaluating fairness testing algorithms, complementing the established metrics.",
+    "artifactURL": "https://github.com/KazukiFunamoto/Diversity_Fairness_Testing",
+    "notes": "",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323336"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00036",
+    "title": "Is LLM-Generated Code More Maintainable & Reliable Than Human-Written Code?",
+    "abstract": "Background: The rise of Large Language Models (LLMs) in software development has opened new possibilities for code generation. Despite the widespread use of this technology, it remains unclear how well LLMs generate code solutions in terms of software quality and how they compare to humanwritten code. Aims: This study compares the internal quality attributes of LLM-generated and human-written code. Method: Our empirical study integrates datasets of coding tasks, three LLM configurations (zero-shot, few-shot, and fine-tuning), and SonarQube to assess software quality. The dataset comprises Python code solutions across three difficulty levels: introductory, interview, and competition. We analyzed key code quality metrics, including maintainability and reliability, and the estimated effort required to resolve code issues. Results: Our analysis shows that LLM-generated code has fewer bugs and requires less effort to fix them overall. Interestingly, fine-tuned models reduced the prevalence of high-severity issues, such as blocker and critical bugs, and shifted them to lower-severity categories, but decreased the model's performance. In competition-level problems, the LLM solutions sometimes introduce structural issues that are not present in human-written code. Conclusion: Our findings provide valuable insights into the quality of LLM-generated code; however, the introduction of critical issues in more complex scenarios highlights the need for a systematic evaluation and validation of LLM solutions. Our work deepens the understanding of the strengths and limitations of LLMs for code generation.",
+    "artifactURL": "https://zenodo.org/records/15283737",
+    "notes": "",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323370"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00044",
+    "title": "Mapping Code Smells and Refactorings Accurately: Insights from an Empirical Study",
+    "abstract": "Background: Code smells indicate underlying quality issues that negatively impact software maintainability. Refactoring is a common way to improve code quality by restructuring it, often removing these code smells. While many recommendations exist on how to refactor code smells, we do not fully understand how developers how they are removed by developers in the real world. Aim: In this study, we aim to investigate the evolution of code smells and the impact of applied refactoring techniques. Method: Our study addresses this gap by investigating both implementation and design smells and the refactoring techniques developers use to remove them. We also explore how often code smells are removed using established refactoring techniques. We analyzed 212,664 commits from 87 open-source Java projects using both automated tools and manual review to understand the relationship between code smells and refactoring. Results: Our key findings include: a) Extract method refactoring is most effective at fixing multiple smell types, b) Most applied refactorings do not remove code smells, c) About 82% of removed code smells are ‚Äúdangling‚Äù i.e., they are removed without a matching refactoring technique, and d) Design smells typically last longer in codebases than implementation smells. Conclusions: This research improves our understanding of the interplay between code smells and refactoring effectiveness. Our results can help researchers develop better tools and guide software engineers in making their refactoring processes more efficient.",
+    "artifactURL": "https://github.com/SMART-Dal/code_smell_evolution",
+    "notes": "",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323447"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00021",
+    "title": "Secret Breach Detection in Source Code with Large Language Models",
+    "abstract": "Background: Leaking sensitive information-such as API keys, tokens, and credentials-in source code remains a persistent security threat. Traditional regex and entropy-based tools often generate high false positives due to limited contextual understanding. Aims: This work aims to enhance secret detection in source code using large language models (LLMs), reducing false positives while maintaining high recall. We also evaluate the feasibility of using fine-tuned, smaller models for local deployment. Method: We propose a hybrid approach combining regex-based candidate extraction with LLM-based classification. We evaluate pre-trained and fine-tuned variants of various Large Language Models on a benchmark dataset from 818 GitHub repositories. Various prompting strategies and efficient fine-tuning methods are employed for both binary and multiclass classification. Results: The fine-tuned LLaMA-3.1 8B model achieved an F1-score of 0.9852 in binary classification, outperforming regex-only baselines. For multiclass classification, Mistral-7B reached 0.982 accuracy. Fine-tuning significantly improved performance across all models. Conclusions: Fine-tuned LLMs offer an effective and scalable solution for secret detection, greatly reducing false positives. Open-source models provide a practical alternative to commercial APIs, enabling secure and cost-efficient deployment in development workflows.",
+    "artifactURL": "https://zenodo.org/records/18471487",
+    "notes": "Jupyter  notebooks",
+    "llm": true,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323433"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00053",
+    "title": "SESR-Eval: Dataset for Evaluating LLMs in the Title-Abstract Screening of Systematic Reviews",
+    "abstract": "Background: The use of large language models (LLMs) in the title-abstract screening process of systematic reviews (SRs) has shown promising results, but suffers from limited performance evaluation. Aims: Create a benchmark dataset to evaluate the performance of LLMs in the title-abstract screening process of SRs. Provide evidence whether using LLMs in title-abstract screening in software engineering is advisable. Method: We start with 169 SR research artifacts and find 24 of those to be suitable for inclusion in the dataset. Using the dataset we benchmark title-abstract screening using 9 LLMs. Results: We present the SESR-Eval (Software Engineering Systematic Review Evaluation) dataset containing 34,528 labeled primary studies, sourced from 24 secondary studies published in software engineering (SE) journals. Most LLMs performed similarly and the differences in screening accuracy between secondary studies are greater than differences between LLMs. The cost of using an LLM is relatively low - less than 40 per secondary study even for the most expensive model. Conclusions: Our benchmark enables monitoring AI performance in the screening task of SRs in software engineering. At present, LLMs are not yet recommended for automating the title-abstract screening process, since accuracy varies widely across secondary studies, and no LLM managed a high recall with reasonable precision. In future, we plan to investigate factors that influence LLM screening performance between studies.",
+    "artifactURL": "https://doi.org/10.5281/zenodo.16408882",
+    "notes": "OpenAI",
+    "llm": true,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323291"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00012",
+    "title": "SIExVulTS: Sensitive Information Exposure Vulnerability Detection System Using Transformer Models and Static Analysis",
+    "abstract": "Background: Sensitive Information Exposure (SIEx) vulnerabilities (CWE-200) remain a persistent and underaddressed threat across software systems, often leading to serious security breaches. Existing detection tools rarely target the diverse subcategories of CWE-200 or provide context-aware analysis of code-level data flows. Aims: This paper aims to present SIExVulTS, a novel vulnerability detection system that integrates transformer-based models with static analysis to identify and verify sensitive information exposure in Java applications. Method: SIExVulTS employs a three-stage architecture: (1) an Attack Surface Detection Engine that uses sentence embeddings to identify sensitive variables, strings, comments, and sinks; (2) an Exposure Analysis Engine that instantiates CodeQL queries aligned with the CWE-200 hierarchy; and (3) a Flow Verification Engine that leverages GraphCodeBERT to semantically validate source-to-sink flows. We evaluate SIExVulTS using three curated datasets, including real-world CVEs, a benchmark set of synthetic CWE-200 examples, and labeled flows from 31 open-source projects. Results: The Attack Surface Detection Engine achieved an average $\\mathbf{F 1}$ score greater than $\\mathbf{9 3 \\%}$, the Exposure Analysis Engine achieved an F 1 score of 85.71 %, and the Flow Verification Engine increased precision from 22.61 % to 87.23 %. Moreover, SIExVulTS successfully uncovered six previously unknown CVEs in major Apache projects. Conclusions: The results demonstrate that SIExVulTS is effective and practical for improving software security against sensitive data exposure, addressing limitations of existing tools in detecting and verifying CWE-200 vulnerabilities.",
+    "artifactURL": "https://github.com/MSUSEL/hawaii-pique-cwe200",
+    "notes": "Replication package is a tool and not only scripts",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323419"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00016",
+    "title": "The Shifting Sands of Toxicity: The Evolving Nature of Interpersonal Challenges in Open Source",
+    "abstract": "Background: The sustainability of Open Source Software (OSS) projects relies on attracting and retaining contributors. Interpersonal challenges, whether experienced or witnessed, can discourage participation, alter behavior, or drive contributors away. Aims: This study examines how interpersonal challenges in OSS communities persist over time and explores their behavioral consequences on contributors' decisions and actions. Method: We analyze data from two large GitHub Open Source surveys conducted in $2017(\\mathrm{n}=5,495)$ and $2024(\\mathrm{n}=8,452)$, evaluating changes in reported interpersonal challenges (RQ1) and differential consequences of exposure between 2017 and 2024 (RQ2). Results: Our findings reveal a significant increase in reported interpersonal challenges in 2024 compared to 2017. Contributors more frequently reported severe challenges such as threats of violence, impersonation, sustained harassment, stalking, and doxxing. The behavioral impact has shifted: experiencing rudeness, stalking, and name-calling became strongly linked to stopping contributions, adopting pseudonyms, working privately, and avoiding offline events. Witnessing harmful behaviors like name-calling and impersonation also became stronger predictors of working privately or advocating for Codes of Conduct. These trends show toxicity is not only more pervasive but increasingly damaging to OSS participation and community health. Conclusions: Results highlight a concerning rise in interpersonal challenges within OSS communities, with rudeness emerging as the most impactful. The growing influence of toxic behaviors on contributors' decisions to withdraw, conceal identities, isolate collaboration, and avoid offline engagement underscores the urgent need for stronger, proactive community support. Sustaining healthy OSS projects requires both technical excellence and deliberate investment in social infrastructure to foster respectful collaboration spaces.",
+    "artifactURL": "https://figshare.com/s/8c4497eefb7cf07246b0",
+    "notes": "",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323252"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00037",
+    "title": "Using Voting and Stacking Ensemble Techniques to Optimize Software Requirements Classification",
+    "abstract": "Background: Ensemble models play an important role in integrating multiple classifiers in a wide range of applications, such as medical diagnosis, sentiment analysis, and financial market trends. In Requirements Engineering (RE), automatic requirements classification can be improved by the utilization of these models. Aims: This paper analyses the performance metrics of voting and stacking ensemble models for requirements classification prediction. Moreover, a cross-dataset validation was performed for the meta-models generated using the stacking ensemble method. Methods: Some previously trained base models and two datasets of software requirements written in Spanish (translated PROMISE_exp and ReSpa dataset) were used to build the ensemble models. Results: The results indicate that the stacking model achieved a weighted F1-score of 0.828 using Support Vector Machine (SVM) and Multi-layer Perceptron (MLP) for translated PROMISE_exp dataset. For the ReSpa dataset, the stacking model achieved a weighted F1-score of 0.890 using Logistic Regression (LR). Conclusion: This study confirms a slight improvement in the performance of binary requirements classification using stacking ensemble methods over voting and most individual base models. Moreover, combining all models outperforms combinations that include only Shallow ML or DL models.",
+    "artifactURL": "https://zenodo.org/records/16850100",
+    "notes": "",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323343"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00071",
+    "title": "What About Our Bug? A Study on the Responsiveness of NPM Package Maintainers",
+    "abstract": "Background: Widespread use of third-party libraries makes ecosystems like Node Package Manager (npm) critical to modern software development. However, this interconnected chain of dependencies also creates challenges: bugs in one library can propagate downstream, potentially impacting many other libraries that rely on it. We hypothesize that maintainers may not always decide to fix a bug, especially if the maintainer decides it falls out of their responsibility within the chain of dependencies. Aims: To confirm this hypothesis, we investigate the responsiveness of 30,340 bug reports across 500 of the most depended-upon npm packages. Method: We adopt a mixedmethod approach to mine repository issue data and perform qualitative open coding to analyze reasons behind unaddressed bug reports. Results: Our findings show that maintainers are generally responsive, with a median project-level responsiveness of 70% (IQR: 55-89%), reflecting their commitment to support downstream developers. Conclusions: We present a taxonomy of the reasons some bugs remain unresolved. The taxonomy included contribution practices, dependency constraints, and library-specific standards as reasons for not being responsive. Understanding maintainer behavior can inform practices that promote a more robust and responsive open-source ecosystem that benefit the entire community.",
+    "artifactURL": "https://osf.io/v4acz/overview",
+    "notes": "Llama",
+    "llm": true,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323406"
+  },
+  {
+    "pid": "10.1109/ESEM64174.2025.00063",
+    "title": "Where Tests Fall Short: Empirically Analyzing Oracle Gaps in Covered Code",
+    "abstract": "Background: Developers often rely on statement coverage to assess test suite quality. However, statement coverage alone may only lead to 10 % fault detection, necessitating more rigorous approaches. While mutation testing is effective, its execution and human analysis costs remain high. Identifying covered statements that are not checked by oracles (e.g., assertions) offers a cost-effective alternative; however, the lack of empirical evidence for selecting the appropriate Oracle Gap Calculation Approach (OGCA) prevents developers from making informed choices. Aims: This knowledge-seeking study compares oracle gap characteristics determined by different OGCAs to assist developers in choosing the most valuable approach for their use cases. Method: Using mixed-method empirical analysis, we conduct an in-depth evaluation of the oracle gaps produced using three OGCAs: Checked Coverage using a Dynamic Slicer ($\\mathbf{C C}_{D S}$), Checked Coverage using an Observational Slicer $\\left(\\mathbf{C C}_{O S}\\right)$, and Pseudo-Tested Statement Identification (PTSI). Across 30 Java classes from six open-source projects, we report on a quantitative evaluation of gap prominence, distribution, fault detection correlation and execution times, as well as results from a qualitative manual inspection of the statement types found in the oracle gaps. Results: The qualitative analysis showed data-loading statements, iteration statements and output updates to be most prominent in the oracle gaps. PTSI identified the oracle gaps with the lowest median mutation score (0.32), highlighting areas requiring more fault detection improvement compared to $\\mathbf{C C}_{D S} \\boldsymbol{(} \\mathbf{0. 7 6) }$ and $\\mathbf{C C}_{O S} \\boldsymbol{(} \\mathbf{0. 5 0} \\boldsymbol{)}$. PTSI also had the shortest median execution time (19.9 seconds), far quicker than both $\\text{CC}_{D S}$ (273.2 seconds) and $\\text{CC}_{O S}$ (5957.1 seconds). Conclusions: PTSI quickly reveals the priority testing areas for improved fault detection, making it an effective OGCA for developers to identify where tests fall short.",
+    "artifactURL": "https://github.com/pseudotested/esem-2025-replication-package",
+    "notes": "",
+    "llm": false,
+    "conference": "ESEM2025",
+    "track": "Technical Track",
+    "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11323296"
+  }
+]

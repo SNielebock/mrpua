@@ -30,7 +30,7 @@ A detailed program with a schedule for the hackathon day will be provided later.
 
 Any questions regarding the hackathon can be submitted to [Sebastian Nielebock](mailto:sebastian.nielebock@ovgu.de?subject=[MRPUA@ESEM2026]) or [Andreas Bauer](mailto:andreas.bauer@th-nuernberg.de?subject=[MRPUA@ESEM2026]).
 
-Further details on the exact time and location hackathon will be available on the ESEM 2026 webpage ([https://conf.researchr.org/track/eseiw-2026/eseiw-2026-hackathon-mrpua](hhttps://conf.researchr.org/track/eseiw-2026/eseiw-2026-hackathon-mrpua)) closer to the conference.
+Further details on the exact time and location hackathon will be available on the ESEM 2026 webpage ([https://conf.researchr.org/track/eseiw-2026/eseiw-2026-hackathon-mrpua](https://conf.researchr.org/track/eseiw-2026/eseiw-2026-hackathon-mrpua)) closer to the conference.
 <br>
 <br>
 Hope to see you in Munich!

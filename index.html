@@ -55,10 +55,11 @@
       <table class="striped">
 
         <thead>
-          <tr><td id="row-count" colspan="7">Rows: 0</td></tr>
+          <tr><td id="row-count" colspan="8">Rows: 0</td></tr>
         </thead>
         <thead>
           <tr>
+            <th scope="col">ArtefactID</th>
             <th scope="col">Title</th>
             <th scope="col">Abstract</th>
             <th scope="col">Artifact</th>
@@ -100,8 +101,11 @@
         const tbody = document.querySelector("#papers");
         for (const paper of papers) {
           const row = tbody.insertRow();
+          const pid = paper.pid;
+          row.dataset.artefactid = pid;
+          
           const llm = paper.llm ?? paper.LLM;
-          row.dataset.llm = llm;
+                    row.dataset.llm = llm;
           row.dataset.conference = paper.conference;
 
           row.insertCell().textContent = paper.title;

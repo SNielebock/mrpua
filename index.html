@@ -88,7 +88,7 @@
       for (const row of document.querySelector("#papers").rows) {
         const textMatches = !query || row.cells[0].textContent.toLowerCase().includes(query) ||
           !query || row.cells[1].textContent.toLowerCase().includes(query) ||
-          (row.cells[1].firstElementChild.dataset.tooltip ?? "").toLowerCase().includes(query);
+          (row.cells[2].firstElementChild.dataset.tooltip ?? "").toLowerCase().includes(query);
         row.hidden = !textMatches || (hideLlm && row.dataset.llm === "true") ||
           (row.dataset.conference === "ESEM2026" && !showEsem) ||
           (row.dataset.conference === "ESEM2025" && !showEsem2025) ||

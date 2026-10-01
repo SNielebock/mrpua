@@ -80,14 +80,15 @@
       document.querySelector("#row-count").textContent = `Rows: ${count}`;
     };
     const applyFilters = () => {
-      const query = document.querySelector("#filter").value.trim().toLowerCase();
+      const  = document.querySelector("#filter").value.trim().toLowerCase();
       const hideLlm = document.querySelector("#hide-llm").checked;
       const showEsem = document.querySelector("#show-esem").checked;
       const showEsem2025 = document.querySelector("#show-esem-2025").checked;
       const showAse = document.querySelector("#show-ase").checked;
       for (const row of document.querySelector("#papers").rows) {
-        const textMatches = !query || row.cells[0].textContent.toLowerCase().includes(query) ||
-          (row.cells[1].firstElementChild.dataset.tooltip ?? "").toLowerCase().includes(query);
+        const textMatches = !query || row.cells[0].textContent.toLowerCase().includes(query) || 
+           row.cells[1].textContent.toLowerCase().includes(query) ||
+          (row.cells[2].firstElementChild.dataset.tooltip ?? "").toLowerCase().includes(query);
         row.hidden = !textMatches || (hideLlm && row.dataset.llm === "true") ||
           (row.dataset.conference === "ESEM2026" && !showEsem) ||
           (row.dataset.conference === "ESEM2025" && !showEsem2025) ||
